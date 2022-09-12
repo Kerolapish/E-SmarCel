@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="6"
+    android:orientation="vertical"
+    android:background="@drawable/background">
+
+    <TextView
+        android:layout_weight="0"
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="E-SmarCel"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold"></TextView>
+
+    <TextView
+        android:layout_weight="0"
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Please fill the field before claim your parcel!"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="italic"></TextView>
+
+    <ImageView
+        android:layout_weight="2"
+        android:id="@+id/imageView"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:background="@drawable/recipient"></ImageView>
+
+    <EditText
+        android:layout_weight="0"
+        android:id="@+id/txtTrack"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"
+        android:background="@drawable/edit_text"
+        android:drawableLeft="@drawable/tracking"
+        android:hint="Enter your tracking number"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"></EditText>
+
+    <EditText
+        android:layout_weight="0"
+        android:id="@+id/txtName"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:background="@drawable/edit_text"
+        android:drawableLeft="@drawable/person1"
+        android:hint="Enter your name"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"></EditText>
+
+    <EditText
+        android:layout_weight="0"
+        android:id="@+id/txtNumPhone"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:background="@drawable/edit_text"
+        android:drawableLeft="@drawable/phone"
+        android:hint="Enter your phone number"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"></EditText>
+
+    <Button
+        android:layout_weight="0"
+        android:id="@+id/btnSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:text="Submit"
+        android:textAlignment="center"
+        android:textSize="18dp"></Button>
+
+</LinearLayout>

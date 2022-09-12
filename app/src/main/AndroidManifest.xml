@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.e_smarcel">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-feature android:name="android.hardware.camera.any" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ESmarCel"
+        tools:targetApi="31">
+        <activity
+            android:name=".History_Skynet"
+            android:exported="false" />
+        <activity
+            android:name=".History_Shopee_Express"
+            android:exported="false" />
+        <activity
+            android:name=".History_Poslaju"
+            android:exported="false" />
+        <activity
+            android:name=".History_Pegeon"
+            android:exported="false" />
+        <activity
+            android:name=".History_Ninja_Van"
+            android:exported="false" />
+        <activity
+            android:name=".History_Nation_Wide"
+            android:exported="false" />
+        <activity
+            android:name=".History_Line_Clear"
+            android:exported="false" />
+        <activity
+            android:name=".History_Jnt_Malaysia"
+            android:exported="false" />
+        <activity
+            android:name=".History_Gdex"
+            android:exported="false" />
+        <activity
+            android:name=".History_Flash_Express"
+            android:exported="false" />
+        <activity
+            android:name=".History_Dhl"
+            android:exported="false" />
+        <activity
+            android:name=".History_CityLink"
+            android:exported="false" />
+        <activity
+            android:name=".History_Best_Express"
+            android:exported="false" />
+        <activity
+            android:name=".choose_courier_history"
+            android:exported="false" />
+        <activity
+            android:name=".whatApps"
+            android:exported="false" />
+        <activity
+            android:name=".Item"
+            android:exported="false" />
+        <activity
+            android:name=".Parcel_Data_Pegeon"
+            android:exported="false" />
+        <activity
+            android:name=".Parcel_Data_Nation_Wide"
+            android:exported="false" />
+        <activity
+            android:name=".Parcel_Data_Best_Express"
+            android:exported="false" />
+        <activity
+            android:name=".Parcel_Data_Line_Clear"
+            android:exported="false" />
+        <activity
+            android:name=".Parcel_Data_Skynet"
+            android:exported="false" />
+        <activity
+            android:name=".Parcel_Data_Flash_Express"
+            android:exported="false" />
+        <activity
+            android:name=".Parcel_Data_Gdex"
+            android:exported="false" />
+        <activity
+            android:name=".Parcel_Data_Dhl"
+            android:exported="false" />
+        <activity
+            android:name=".Parcel_Data_Citylink"
+            android:exported="false" />
+        <activity
+            android:name=".Parcel_Data_Ninja_Van"
+            android:exported="false" />
+        <activity
+            android:name=".Parcel_Data_Poslaju"
+            android:exported="false" />
+        <activity
+            android:name=".Parcel_Data_Shoppee"
+            android:exported="false" />
+        <activity
+            android:name=".Parcel_Data_JnT"
+            android:exported="false" />
+        <activity
+            android:name=".Main_Menu_Admin"
+            android:exported="false" />
+        <activity
+            android:name=".Parcel_Recipient"
+            android:exported="false" />
+        <activity
+            android:name=".Parcel_Data"
+            android:exported="false" />
+        <activity
+            android:name=".Parcel_Status"
+            android:exported="false"/>
+            <!--android:theme="@style/AppTheme.ActionBar"-->
+        <activity
+            android:name=".History"
+            android:exported="false" />
+        <activity
+            android:name=".Qr_Scanner"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

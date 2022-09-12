@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/user/AndroidStudioProjects/ESmarCel2/app/src/main/res/drawable/header_background.xml" value="0.1795" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/ESmarCel2/app/src/main/res/drawable/roundbtn.xml" value="0.121" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/ESmarCel2/app/src/main/res/drawable/search.xml" value="0.309" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/ESmarCel2/app/src/main/res/drawable/trending_background.xml" value="0.22" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/ESmarCel2/app/src/main/res/layout/activity_choose_courier.xml" value="0.3625" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/ESmarCel2/app/src/main/res/layout/activity_choose_courier_history.xml" value="0.176" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/ESmarCel2/app/src/main/res/layout/activity_history.xml" value="0.2078804347826087" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/ESmarCel2/app/src/main/res/layout/activity_history_best_express.xml" value="0.3625" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/ESmarCel2/app/src/main/res/layout/activity_history_city_link.xml" value="0.3625" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/ESmarCel2/app/src/main/res/layout/activity_history_dhl.xml" value="0.3484375" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/ESmarCel2/app/src/main/res/layout/activity_history_flash_express.xml" value="0.3484375" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/ESmarCel2/app/src/main/res/layout/activity_history_gdex.xml" value="0.3484375" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/ESmarCel2/app/src/main/res/layout/activity_history_jnt_malaysia.xml" value="0.3484375" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/ESmarCel2/app/src/main/res/layout/activity_history_line_clear.xml" value="0.3625" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/ESmarCel2/app/src/main/res/layout/activity_history_nation_wide.xml" value="0.25" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/ESmarCel2/app/src/main/res/layout/activity_history_ninja_van.xml" value="0.25" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/ESmarCel2/app/src/main/res/layout/activity_history_pegeon.xml" value="0.3625" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/ESmarCel2/app/src/main/res/layout/activity_history_poslaju.xml" value="0.3484375" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/ESmarCel2/app/src/main/res/layout/activity_history_shopee_express.xml" value="0.3484375" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/ESmarCel2/app/src/main/res/layout/activity_history_skynet.xml" value="0.3484375" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/ESmarCel2/app/src/main/res/layout/activity_item.xml" value="0.25" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/ESmarCel2/app/src/main/res/layout/activity_login_page.xml" value="0.25" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/ESmarCel2/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/ESmarCel2/app/src/main/res/layout/activity_main_menu_admin.xml" value="0.152" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/ESmarCel2/app/src/main/res/layout/activity_parcel.xml" value="0.2359375" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/ESmarCel2/app/src/main/res/layout/activity_parcel_data.xml" value="0.2" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/ESmarCel2/app/src/main/res/layout/activity_parcel_data_best_express.xml" value="0.2" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/ESmarCel2/app/src/main/res/layout/activity_parcel_data_citylink.xml" value="0.2359375" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/ESmarCel2/app/src/main/res/layout/activity_parcel_data_dhl.xml" value="0.2359375" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/ESmarCel2/app/src/main/res/layout/activity_parcel_data_flash_express.xml" value="0.25" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/ESmarCel2/app/src/main/res/layout/activity_parcel_data_gdex.xml" value="0.25" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/ESmarCel2/app/src/main/res/layout/activity_parcel_data_jn_t.xml" value="0.2015625" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/ESmarCel2/app/src/main/res/layout/activity_parcel_data_line_clear.xml" value="0.152" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/ESmarCel2/app/src/main/res/layout/activity_parcel_data_nation_wide.xml" value="0.152" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/ESmarCel2/app/src/main/res/layout/activity_parcel_data_ninja_van.xml" value="0.152" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/ESmarCel2/app/src/main/res/layout/activity_parcel_data_pegeon.xml" value="0.25" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/ESmarCel2/app/src/main/res/layout/activity_parcel_data_poslaju.xml" value="0.152" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/ESmarCel2/app/src/main/res/layout/activity_parcel_data_shoppee.xml" value="0.176" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/ESmarCel2/app/src/main/res/layout/activity_parcel_data_skynet.xml" value="0.152" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/ESmarCel2/app/src/main/res/layout/activity_parcel_recipient.xml" value="0.264" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/ESmarCel2/app/src/main/res/layout/activity_parcel_status.xml" value="0.4" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/ESmarCel2/app/src/main/res/layout/activity_parcerl_data_poslaju.xml" value="0.25" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/ESmarCel2/app/src/main/res/layout/activity_print_report.xml" value="0.2078804347826087" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/ESmarCel2/app/src/main/res/layout/activity_qr_scanner.xml" value="0.264" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/ESmarCel2/app/src/main/res/layout/activity_recipient.xml" value="0.264" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/ESmarCel2/app/src/main/res/layout/activity_scanner_view.xml" value="0.16530797101449277" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/ESmarCel2/app/src/main/res/layout/activity_seach_parcel_status.xml" value="0.264" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/ESmarCel2/app/src/main/res/layout/activity_show.xml" value="0.2359375" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/ESmarCel2/app/src/main/res/layout/activity_what_apps.xml" value="0.3307291666666667" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/ESmarCel2/app/src/main/res/layout/recyler_view.xml" value="0.2" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/ESmarCel2/app/src/main/res/layout/update_popup.xml" value="0.176" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/ESmarCel2/app/src/main/res/menu/search.xml" value="0.25" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/ESmarCel2/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1485" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

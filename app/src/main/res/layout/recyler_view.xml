@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="280dp"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="8dp"
+    app:cardCornerRadius="10dp"
+    android:padding="10dp"
+    android:layout_marginLeft="55dp"
+    android:layout_marginTop="15dp"
+    android:layout_marginBottom="10dp"
+    android:backgroundTint="@color/grey"
+    android:id="@+id/recycler_view">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- linearLayout for tracking number-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tracking Number : "
+                android:paddingLeft="6dp"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/black">
+            </TextView>
+
+            <TextView
+                android:id="@+id/txtTrackNum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="20067152342543"
+                android:paddingLeft="6dp"
+                android:textStyle="italic"
+                android:textSize="15dp"
+                android:textColor="@color/black">
+            </TextView>
+        </LinearLayout>
+
+        <!-- linearLayout for name-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name : "
+                android:paddingLeft="6dp"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/black">
+            </TextView>
+
+            <TextView
+                android:id="@+id/txtName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ali bin Abu"
+                android:paddingLeft="6dp"
+                android:textStyle="italic"
+                android:textSize="15dp"
+                android:textColor="@color/black">
+            </TextView>
+        </LinearLayout>
+
+        <!-- linearLayout for phone number-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Phone Number : "
+                android:paddingLeft="6dp"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/black">
+            </TextView>
+
+            <TextView
+                android:id="@+id/txtPhone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="01145738901"
+                android:paddingLeft="6dp"
+                android:textStyle="italic"
+                android:textSize="15dp"
+                android:textColor="@color/black">
+            </TextView>
+        </LinearLayout>
+
+        <!-- linearLayout for parcel status-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Parcel Status : "
+                android:paddingLeft="6dp"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/black">
+            </TextView>
+
+            <TextView
+                android:id="@+id/txtParcelStatus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Claimed / Unclaimed"
+                android:paddingLeft="6dp"
+                android:textStyle="italic"
+                android:textSize="15dp"
+                android:textColor="@color/black">
+            </TextView>
+        </LinearLayout>
+
+        <!-- linear layout for date picker-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Date Claimed : "
+                android:paddingLeft="6dp"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/black">
+            </TextView>
+
+            <TextView
+                android:id="@+id/txtDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="20/2/2022"
+                android:paddingLeft="6dp"
+                android:textStyle="italic"
+                android:textSize="15dp"
+                android:textColor="@color/black">
+            </TextView>
+        </LinearLayout>
+
+        <!-- linearLayout for button update-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnEdit"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="Edit"
+                android:textAllCaps="false"
+                android:layout_marginLeft="85dp">
+            </Button>
+
+            <Button
+                android:id="@+id/btnDelete"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="Delete"
+                android:textAllCaps="false"
+                android:layout_marginLeft="10dp">
+            </Button>
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

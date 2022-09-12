@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:weightSum="8"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_weight="0"
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/black"
+        android:text="E-SmarCel"
+        android:textAlignment="center"
+        android:textColor="#050505"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_weight="0"
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="To continue using this app,"
+        android:textAlignment="center"
+        android:textColor="#0B0A0A"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_weight="0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="please sign in first."
+        android:textAlignment="center"
+        android:textColor="#0E0E0E"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:layout_weight="1"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:background="@drawable/loginblue"/>
+
+    <EditText
+        android:layout_weight="0"
+        android:id="@+id/inputUsername"
+        android:hint="Username"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:layout_marginTop="50dp"
+        android:drawablePadding="10dp"
+        android:paddingLeft="10dp"
+        android:textColor="#0B0A0A"
+        android:layout_centerInParent="true"
+        android:background="@drawable/edit_background"
+        android:drawableLeft="@drawable/person"
+        android:textColorHint="@color/black" />
+
+    <EditText
+        android:layout_weight="0"
+        android:id="@+id/inputPassword"
+        android:hint="Password"
+        android:password="true"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:drawablePadding="10dp"
+        android:padding="10dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/edit_background"
+        android:drawableLeft="@drawable/password"
+        android:textColorHint="@color/black"
+        android:textColor="#121111" />
+
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:id="@+id/btnSignIn"
+        android:layout_weight="0"
+        android:text="Sign In"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:textAllCaps="false"
+        android:textAlignment="center"
+        android:textColor="#FDFAFA"
+        android:textSize="18sp"
+        app:backgroundTint="#042DF8" />
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="0"/>
+    <LinearLayout
+        android:layout_weight="3"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+        <TextView
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:text="Click Here for"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:id="@+id/btnUser"
+            android:text="Parcel Recipient"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:textSize="18dp"
+            android:textStyle="italic"
+            android:textAlignment="center"
+            android:clickable="true"
+            android:textColor="@color/blue"/>
+    </LinearLayout>
+
+</LinearLayout>
